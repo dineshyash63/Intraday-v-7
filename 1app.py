@@ -144,7 +144,8 @@ def analyze_stock_v7(ticker_symbol, tf):
 # Sidebar Controls
 with st.sidebar:
     st.header("📲 Telegram Settings")
-    bot_token = st.text_input("Bot Token", value_"8462007353:AAFZsWmNgiVWBIPngaA5AEnHqzwWhMRl9hU", type="password")
+    # உங்களுடைய Bot Token மற்றும் Chat ID-ஐ கீழே உள்ள '...' குறியீட்டிற்குள் கொடுத்துவிடுங்கள்
+    bot_token = st.text_input("Bot Token", value="8462007353:AAFZsWmNgiVWBIPngaA5AEnHqzwWhMRl9hU", type="password")
     chat_id = st.text_input("Chat ID", value="1147331498")
     
     st.markdown("---")
